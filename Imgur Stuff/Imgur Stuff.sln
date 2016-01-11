@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadImgurAlbum", "DownloadImgurAlbum\DownloadImgurAlbum.csproj", "{603246D7-797F-401E-A7FE-15F7D7A3DE50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Downloads", "Downloads", "{9A145AAE-4190-4D3D-88A4-E5E3555F66BE}"
+	ProjectSection(SolutionItems) = preProject
+		DownloadImgurAlbum\bin\Debug\DownloadImgurAlbum.zip = DownloadImgurAlbum\bin\Debug\DownloadImgurAlbum.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
